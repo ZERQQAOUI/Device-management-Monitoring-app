@@ -1,0 +1,97 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"NetCon",
+			"icon":":/icons/icons/logo.svg",
+			"frameless": true,
+			"transluscentBg": true,
+			"sizeGrip": "size-Grip",
+			"navigation":[
+				{
+					"minimize":"minimizeBtn",
+					"close": "closeBtn",
+					"restore":[
+						{	
+							"buttonName": "restoreBtn",
+							"normalIcon": ":/icons/icons/square.svg",
+							"maximizedIcon": ":/icons/icons/copy.svg"
+						}
+					],
+					"moveWindow": "headerContainer",
+					"tittleBar": "headerContainer"
+				}
+			]
+		}
+	],
+    "QCustomSlideMenu": [{
+		"name": "leftmenu",
+		"defaultSize": [{
+			"width": 55,
+			"height": "parent"
+		}],
+		"collapsedSize": [{
+			"width": 55,
+			"height": "parent"
+		}],
+		"expandedSize": [{
+			"width": 150,
+			"height": "parent"
+		}],
+		"toggleButton": [{
+			"buttonName": "menuButton",
+			"icons": [{
+				"whenMenuIsCollapsed": ":/icons/icons/align-justify.svg",
+				"whenMenuIsExpanded": ":/icons/icons/chevron-left.svg"
+			}]
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 400,
+			"animationEasingCurve": "Linear"
+		}]
+	}],
+	"QStackedWidget":[
+		{
+			"name":"mainPages",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"switchBtn": "Switch",
+							"routerBtn": "Router",
+							"machinesBtn":"Machines",
+							"rapportBtn":"Rapport",
+							"performenceBtn":"Performence",
+							"switch1Btn":"Switch1",
+							"switch2Btn":"Switch2",
+							"vlan1confBtn":"vlan1",
+							"vlan2confBtn":"vlan2",
+							"homeBtn":"Home",
+							"infoSwt1Btn":"InfoSwitch1",
+							"infoSwt2Btn":"InfoSwitch2",
+							"getmactable1Btn":"tablemac1",
+							"getmactable2Btn":"tablemac2",
+							"getconf1Btn":"configuration1",
+							"getconf2Btn":"configuration2",
+							"routerciscoBtn":"router",
+							"tableroutageBtn":"tableroutage",
+							"gestionBtn":"gestionintf",
+							"etatinfBtn":"etatintf",
+							"return1":"Switch1",
+							"return2":"Switch1",
+							"return3":"InfoSwitch1",
+							"return4":"InfoSwitch1",
+							"return5":"Switch2",
+							"return6":"Switch2",
+							"return7":"InfoSwitch2",
+							"return8":"InfoSwitch2",
+							"return9":"router",
+							"return10":"router",
+							"return11":"router"
+						}
+					]
+				}
+			]
+	
+		}
+	]
+}
